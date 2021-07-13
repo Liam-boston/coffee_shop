@@ -28,7 +28,20 @@ class _HomePageState extends State<HomePage> {
                     fontFamily: 'varela',
                     fontSize: 30.0,
                     fontWeight: FontWeight.bold,
-                    color: Color(0xFF473D3A)))
+                    color: Color(0xFF473D3A))),
+                    Padding(padding: EdgeInsets.only(right: 15.0),
+                      child: Container(
+                        height: 40.0,
+                        width: 40.0,
+                        decoration: BoxDecoration(
+                          borderRadius: BorderRadius.circular(20.0),
+                          image: DecorationImage(
+                            image: AssetImage("assets/profile.jpg"),
+                            fit: BoxFit.cover
+                          )
+                        ),
+                      )
+                    )
           ],
         )
       ],
