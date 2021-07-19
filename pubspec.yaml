@@ -48,6 +48,7 @@ flutter:
   assets:
     - assets/profile.jpg
     - assets/coffee.jpg
+    - assets/coffee2.jpg
     - assets/starbucks.png
   #   - images/a_dot_ham.jpeg
 
