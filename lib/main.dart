@@ -140,11 +140,11 @@ class _HomePageState extends State<HomePage> {
               height: 125.0,
               child: ListView(
                 scrollDirection: Axis.horizontal,
-                // children: [
-                //   _buildImage("assets/coffee.jpg"),
-                //   _buildImage("assets/coffee2.jpg"),
-                //   _buildImage("assets/coffee3.jpg")
-                // ],
+                children: [
+                  _buildImage("assets/coffee.jpg"),
+                  // _buildImage("assets/coffee2.jpg"),
+                  // _buildImage("assets/coffee3.jpg")
+                ],
               ),
             ),
             SizedBox(height: 20.0),
