@@ -1,6 +1,8 @@
 import "package:flutter/material.dart";
 import "package:flutter/rendering.dart";
 
+import 'package:coffee_shop/BottomNavbar.dart';
+
 class HomePage extends StatefulWidget {
   @override
   State<StatefulWidget> createState() {
@@ -150,10 +152,9 @@ class _HomePageState extends State<HomePage> {
                 ],
               ),
             ),
-            // SizedBox(height: 20.0),
-           //Navbar()
           ],
         ),
+      bottomNavigationBar: BottomNavbar(),
       ),
     );
   }
