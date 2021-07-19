@@ -142,7 +142,7 @@ class _HomePageState extends State<HomePage> {
                 scrollDirection: Axis.horizontal,
                 children: [
                   _buildImage("assets/coffee.jpg"),
-                  // _buildImage("assets/coffee2.jpg"),
+                  _buildImage("assets/coffee2.jpg"),
                   // _buildImage("assets/coffee3.jpg")
                 ],
               ),
