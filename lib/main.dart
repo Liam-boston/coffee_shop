@@ -98,7 +98,7 @@ class _HomePageState extends State<HomePage> {
                       "assets/cafe_du_monde.png",
                       "Cafe Au Lait",
                       "Cafe Du Monde",
-                      "Our specialty, half coffee & half hot milk",
+                      "Our specialty, half coffee & half hot milk\n",
                       "\$3.87",
                       false),
                   _coffeeListCard(
@@ -107,6 +107,13 @@ class _HomePageState extends State<HomePage> {
                       "La Colombe Torrefaction",
                       "It's a coffee you know and love, with deep, dark chocolate tones and a bold coffee flavor",
                       "\$3.50",
+                      false),
+                  _coffeeListCard(
+                      "assets/stumptown_roasters.png",
+                      "Hair Bender",
+                      "Stumptown Coffee Roasters",
+                      "Our most celebrated blend with a flavor profile that shines no matter how you brew it",
+                      "\$4.75",
                       false),
                 ],
               ),
@@ -162,9 +169,9 @@ _buildImage(String imgPath) {
       height: 100.0,
       width: 175.0,
       decoration: BoxDecoration(
-        borderRadius: BorderRadius.circular(15.0),
-        image: DecorationImage(image: AssetImage(imgPath), fit: BoxFit.cover)
-      ),
+          borderRadius: BorderRadius.circular(15.0),
+          image:
+              DecorationImage(image: AssetImage(imgPath), fit: BoxFit.cover)),
     ),
   );
 }
