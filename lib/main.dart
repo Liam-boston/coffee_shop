@@ -11,7 +11,10 @@ class CoffeeShop extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: "Coffee shop",
-      home: HomePage(),
+      initialRoute: "/",
+      routes: {
+        "/": (context) => HomePage(),
+      }
     );
   }
 }
