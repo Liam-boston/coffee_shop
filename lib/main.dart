@@ -208,13 +208,33 @@ _coffeeListCard(String imgPath, String coffeeName, String shopName,
                     width: 100.0,
                     decoration: BoxDecoration(
                       image: DecorationImage(
-                          image: AssetImage(imgPath), 
-                          fit: BoxFit.contain),
+                          image: AssetImage(imgPath), fit: BoxFit.contain),
                     ),
                   ),
                 ),
               ],
-            )
+            ),
+            SizedBox(height: 20.0),
+            InkWell(
+              onTap: () {},
+              child: Container(
+                height: 50.0,
+                width: 225.0,
+                decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(25.0),
+                    color: Color(0xFF473D3A)),
+                child: Center(
+                  child: Text(
+                    "Order Now",
+                    style: TextStyle(
+                        fontFamily: "nunito",
+                        fontSize: 14.0,
+                        fontWeight: FontWeight.bold,
+                        color: Colors.white),
+                  ),
+                ),
+              ),
+            ),
           ],
         ),
       ));
