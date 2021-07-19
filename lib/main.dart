@@ -200,6 +200,19 @@ _coffeeListCard(String imgPath, String coffeeName, String shopName,
                     ),
                   ),
                 ),
+                Positioned(
+                  left: 60.0,
+                  top: 25.0,
+                  child: Container(
+                    height: 100.0,
+                    width: 100.0,
+                    decoration: BoxDecoration(
+                      image: DecorationImage(
+                          image: AssetImage(imgPath), 
+                          fit: BoxFit.contain),
+                    ),
+                  ),
+                ),
               ],
             )
           ],
