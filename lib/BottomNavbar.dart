@@ -1,5 +1,8 @@
-import 'package:coffee_shop/presentation/app_icons.dart';
 import 'package:flutter/material.dart';
+
+import 'package:coffee_shop/HomePage.dart';
+import 'package:coffee_shop/DetailsPage.dart';
+import 'package:coffee_shop/presentation/app_icons.dart';
 
 class BottomNavbar extends StatelessWidget {
   @override
@@ -20,12 +23,35 @@ class BottomNavbar extends StatelessWidget {
               children: [
                 IconButton(
                   onPressed: () {
-                    Navigator.pushReplacementNamed(context, "/");
+                    Navigator.pushReplacement(
+                      context,
+                      new MaterialPageRoute(
+                        builder: (context) => new HomePage(),
+                      ),
+                    );
                   },
                   icon: Icon(AppIcons.home, size: 30.0),
                 ),
                 Center(
                   child: Text("Home"),
+                ),
+              ],
+            ),
+            Column(
+              children: [
+                IconButton(
+                  onPressed: () {
+                    Navigator.pushReplacement(
+                      context,
+                      new MaterialPageRoute(
+                        builder: (context) => new DetailsPage(),
+                      ),
+                    );
+                  },
+                  icon: Icon(AppIcons.order, size: 30.0),
+                ),
+                Center(
+                  child: Text("Order"),
                 ),
               ],
             )
