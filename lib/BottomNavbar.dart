@@ -1,4 +1,6 @@
+import 'package:coffee_shop/presentation/app_icons.dart';
 import 'package:flutter/material.dart';
+
 
 class BottomNavbar extends StatelessWidget {
   @override
@@ -19,7 +21,7 @@ class BottomNavbar extends StatelessWidget {
               onPressed: () {
                 Navigator.pushReplacementNamed(context, "/");
               },
-              icon: Icon(Icons.home, size: 40.0),
+              icon: Icon(AppIcons.home, size: 40.0),
             ),
           ],
         ),
