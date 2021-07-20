@@ -1,9 +1,9 @@
 import 'package:flutter/widgets.dart';
 
-class AppIcons {
-  AppIcons._();
+class NavIcons {
+  NavIcons._();
 
-  static const _kFontFam = 'AppIcons';
+  static const _kFontFam = 'NavIcons';
   static const String? _kFontPkg = null;
 
   static const IconData home = IconData(0xe800, fontFamily: _kFontFam, fontPackage: _kFontPkg);

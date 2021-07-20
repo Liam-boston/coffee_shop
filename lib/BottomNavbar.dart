@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 import 'package:coffee_shop/HomePage.dart';
 import 'package:coffee_shop/DetailsPage.dart';
-import 'package:coffee_shop/presentation/app_icons.dart';
+import 'package:coffee_shop/presentation/nav_icons.dart';
 
 class BottomNavbar extends StatelessWidget {
   @override
@@ -30,7 +30,7 @@ class BottomNavbar extends StatelessWidget {
                       ),
                     );
                   },
-                  icon: Icon(AppIcons.home, size: 30.0),
+                  icon: Icon(NavIcons.home, size: 30.0),
                 ),
                 Center(
                   child: Text("Home"),
@@ -48,7 +48,7 @@ class BottomNavbar extends StatelessWidget {
                       ),
                     );
                   },
-                  icon: Icon(AppIcons.order, size: 30.0),
+                  icon: Icon(NavIcons.order, size: 30.0),
                 ),
                 Center(
                   child: Text("Order"),
