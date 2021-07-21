@@ -208,6 +208,36 @@ class _DetailsPageState extends State<DetailsPage> {
                             )
                           ],
                         ),
+                        SizedBox(height: 15.0),
+                        Padding(
+                          padding: const EdgeInsets.only(right: 35.0),
+                          child: Container(
+                            height: 0.5,
+                            color: Color(0xFFC6C4C4),
+                          ),
+                        ),
+                        SizedBox(height: 10.0),
+                        Padding(
+                          padding: EdgeInsets.only(right: 45.0),
+                          child: Container(
+                            height: 50.0,
+                            decoration: BoxDecoration(
+                              borderRadius: BorderRadius.circular(35.0),
+                              color: Color(0xFF473D3A),
+                            ),
+                            child: Center(
+                              child: Text(
+                                "Place Order",
+                                style: TextStyle(
+                                  fontFamily: "nunito",
+                                  fontSize: 14.0,
+                                  fontWeight: FontWeight.bold,
+                                  color: Colors.white,
+                                ),
+                              ),
+                            ),
+                          ),
+                        ),
                       ],
                     ),
                   ),
