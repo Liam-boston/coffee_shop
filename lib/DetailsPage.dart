@@ -139,6 +139,75 @@ class _DetailsPageState extends State<DetailsPage> {
                             color: Color(0xFF726B68),
                           ),
                         ),
+                        SizedBox(height: 10.0),
+                        Row(
+                          children: [
+                            Text(
+                              "Calories",
+                              style: TextStyle(
+                                fontFamily: "nunito",
+                                fontSize: 14.0,
+                                color: Color(0xFFD4D3D2),
+                              ),
+                            ),
+                            SizedBox(width: 15.0),
+                            Text(
+                              "250",
+                              style: TextStyle(
+                                fontFamily: "nunito",
+                                fontSize: 12.0,
+                                fontWeight: FontWeight.bold,
+                                color: Color(0xFF716966),
+                              ),
+                            )
+                          ],
+                        ),
+                        SizedBox(height: 10.0),
+                        Row(
+                          children: [
+                            Text(
+                              "Proteins",
+                              style: TextStyle(
+                                fontFamily: "nunito",
+                                fontSize: 14.0,
+                                color: Color(0xFFD4D3D2),
+                              ),
+                            ),
+                            SizedBox(width: 15.0),
+                            Text(
+                              "10g",
+                              style: TextStyle(
+                                fontFamily: "nunito",
+                                fontSize: 12.0,
+                                fontWeight: FontWeight.bold,
+                                color: Color(0xFF716966),
+                              ),
+                            )
+                          ],
+                        ),
+                        SizedBox(height: 10.0),
+                        Row(
+                          children: [
+                            Text(
+                              "Caffeine",
+                              style: TextStyle(
+                                fontFamily: "nunito",
+                                fontSize: 14.0,
+                                color: Color(0xFFD4D3D2),
+                              ),
+                            ),
+                            SizedBox(width: 15.0),
+                            Text(
+                              "150mg",
+                              style: TextStyle(
+                                fontFamily: "nunito",
+                                fontSize: 12.0,
+                                fontWeight: FontWeight.bold,
+                                color: Color(0xFF716966),
+                              ),
+                            )
+                          ],
+                        ),
                       ],
                     ),
                   ),
