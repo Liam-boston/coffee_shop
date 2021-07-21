@@ -69,6 +69,9 @@ flutter:
     - family: NavIcons
       fonts:
         - asset: assets/fonts/NavIcons.ttf
+    - family: IngredientIcons
+      fonts:
+        - asset: assets/fonts/IngredientIcons.ttf
   
     # - family: Trajan Pro
     #   fonts:
