@@ -257,6 +257,58 @@ class _DetailsPageState extends State<DetailsPage> {
                     ),
                   ),
                 ),
+                Positioned(
+                  top: 25.0,
+                  left: 15.0,
+                  child: Container(
+                    height: 300.0,
+                    width: 250.0,
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Row(
+                          crossAxisAlignment: CrossAxisAlignment.end,
+                          children: [
+                            Container(
+                              width: 150.0,
+                              child: Text(
+                                "Caramel Macchiato",
+                                style: TextStyle(
+                                    fontFamily: "varela",
+                                    fontSize: 30.0,
+                                    fontWeight: FontWeight.bold,
+                                    color: Colors.white),
+                              ),
+                            ),
+                            SizedBox(width: 15.0),
+                            Container(
+                              height: 40.0,
+                              width: 40.0,
+                              decoration: BoxDecoration(
+                                  borderRadius: BorderRadius.circular(20.0),
+                                  color: Colors.white),
+                              child: Center(
+                                  child: Icon(Icons.favorite,
+                                      size: 18.0, color: Colors.red)),
+                            ),
+                          ],
+                        ),
+                        SizedBox(height: 10.0),
+                        Container(
+                          width: 170.0,
+                          child: Text(
+                            "Freshly steamed milk with vanilla-flavored syrup is marked with espresso and topped with caramel drizzle for an oh-so-sweet finish.",
+                            style: TextStyle(
+                              fontFamily: "nunito",
+                              fontSize: 13.0,
+                              color: Colors.white,
+                            ),
+                          ),
+                        ),
+                      ],
+                    ),
+                  ),
+                ),
               ],
             ),
           ],
