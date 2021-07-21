@@ -238,10 +238,25 @@ class _DetailsPageState extends State<DetailsPage> {
                             ),
                           ),
                         ),
+                        SizedBox(height: 5.0),
                       ],
                     ),
                   ),
-                )
+                ),
+                Positioned(
+                  top: MediaQuery.of(context).size.height / 5,
+                  left: 135.0,
+                  child: Container(
+                    height: 300.0,
+                    width: 300.0,
+                    decoration: BoxDecoration(
+                      image: DecorationImage(
+                        image: AssetImage("assets/red_mug.png"),
+                        fit: BoxFit.cover,
+                      ),
+                    ),
+                  ),
+                ),
               ],
             ),
           ],
