@@ -305,6 +305,119 @@ class _DetailsPageState extends State<DetailsPage> {
                             ),
                           ),
                         ),
+                        SizedBox(height: 20.0),
+                        Row(
+                          children: [
+                            Container(
+                              height: 60.0,
+                              width: 60.0,
+                              decoration: BoxDecoration(
+                                borderRadius: BorderRadius.circular(30.0),
+                                color: Color(0xFF473D3A),
+                              ),
+                              child: Center(
+                                child: Row(
+                                  mainAxisAlignment: MainAxisAlignment.center,
+                                  children: [
+                                    Text(
+                                      "4.2",
+                                      style: TextStyle(
+                                        fontFamily: "nunito",
+                                        fontSize: 13.0,
+                                        color: Colors.white,
+                                      ),
+                                    ),
+                                    Text(
+                                      "/5",
+                                      style: TextStyle(
+                                        fontFamily: "nunito",
+                                        fontSize: 13.0,
+                                        color: Color(0xFF7C7573),
+                                      ),
+                                    ),
+                                  ],
+                                ),
+                              ),
+                            ),
+                            SizedBox(height: 15.0),
+                            Column(
+                              crossAxisAlignment: CrossAxisAlignment.center,
+                              children: [
+                                Stack(
+                                  children: [
+                                    Container(height: 35.0, width: 80.0),
+                                    Positioned(
+                                      left: 45.0,
+                                      child: Container(
+                                        height: 35.0,
+                                        width: 35.0,
+                                        decoration: BoxDecoration(
+                                          borderRadius:
+                                              BorderRadius.circular(17.0),
+                                          border: Border.all(
+                                              color: Color(0xFFF3B2B7),
+                                              style: BorderStyle.solid,
+                                              width: 1.0),
+                                          image: DecorationImage(
+                                              image: AssetImage(
+                                                  "assets/profile.jpg"),
+                                              fit: BoxFit.cover),
+                                        ),
+                                      ),
+                                    ),
+                                    Positioned(
+                                      left: 25.0,
+                                      child: Container(
+                                        height: 35.0,
+                                        width: 35.0,
+                                        decoration: BoxDecoration(
+                                          borderRadius:
+                                              BorderRadius.circular(17.0),
+                                          border: Border.all(
+                                              color: Color(0xFFF3B2B7),
+                                              style: BorderStyle.solid,
+                                              width: 1.0),
+                                          image: DecorationImage(
+                                              image: AssetImage(
+                                                  "assets/profile.jpg"),
+                                              fit: BoxFit.cover),
+                                        ),
+                                      ),
+                                    ),
+                                    Positioned(
+                                      left: 5.0,
+                                      child: Container(
+                                        height: 35.0,
+                                        width: 35.0,
+                                        decoration: BoxDecoration(
+                                          borderRadius:
+                                              BorderRadius.circular(17.0),
+                                          border: Border.all(
+                                              color: Color(0xFFF3B2B7),
+                                              style: BorderStyle.solid,
+                                              width: 1.0),
+                                          image: DecorationImage(
+                                              image: AssetImage(
+                                                  "assets/profile.jpg"),
+                                              fit: BoxFit.cover),
+                                        ),
+                                      ),
+                                    ),
+                                  ],
+                                ),
+                                SizedBox(height: 3.0),
+                                Text(
+                                  "+27 more",
+                                  style: TextStyle(
+                                    fontFamily: "nunito",
+                                    fontSize: 12.0,
+                                    color: Colors.white,
+                                  ),
+                                ),
+                              ],
+                            ),
+                          ],
+                        ),
                       ],
                     ),
                   ),
