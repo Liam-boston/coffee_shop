@@ -19,14 +19,14 @@ class _DetailsPageState extends State<DetailsPage> {
             Stack(
               children: [
                 Container(
-                  height: MediaQuery.of(context).size.height - 20.0,
+                  height: MediaQuery.of(context).size.height,
                   width: MediaQuery.of(context).size.width,
                   color: Color(0xFFF3B2B7),
                 ),
                 Positioned(
-                  top: MediaQuery.of(context).size.height / 2,
+                  top: MediaQuery.of(context).size.height / 2.5,
                   child: Container(
-                    height: (MediaQuery.of(context).size.height / 2) - 20.0,
+                    height: (MediaQuery.of(context).size.height),
                     width: MediaQuery.of(context).size.width,
                     decoration: BoxDecoration(
                         borderRadius: BorderRadius.only(
@@ -39,10 +39,10 @@ class _DetailsPageState extends State<DetailsPage> {
 
                 // content
                 Positioned(
-                  top: (MediaQuery.of(context).size.height / 2) + 25.0,
+                  top: (MediaQuery.of(context).size.height / 2.5) + 30.0,
                   left: 25.0,
                   child: Container(
-                    height: (MediaQuery.of(context).size.height / 2) - 50.0,
+                    height: (MediaQuery.of(context).size.height),
                     width: MediaQuery.of(context).size.width,
                     child: ListView(
                       children: [
@@ -245,10 +245,10 @@ class _DetailsPageState extends State<DetailsPage> {
                 ),
                 Positioned(
                   top: MediaQuery.of(context).size.height / 5,
-                  left: 135.0,
+                  left: 200.0,
                   child: Container(
-                    height: 300.0,
-                    width: 300.0,
+                    height: 250.0,
+                    width: 250.0,
                     decoration: BoxDecoration(
                       image: DecorationImage(
                         image: AssetImage("assets/red_mug.png"),
