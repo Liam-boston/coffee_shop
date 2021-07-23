@@ -1,3 +1,4 @@
+import 'package:coffee_shop/Details/EspressoConPanna.dart';
 import 'package:flutter/material.dart';
 
 import 'package:coffee_shop/Home/HomePage.dart';
@@ -41,10 +42,10 @@ class BottomNavbar extends StatelessWidget {
               children: [
                 IconButton(
                   onPressed: () {
-                    Navigator.pushReplacement(
+                    Navigator.push(
                       context,
                       new MaterialPageRoute(
-                        builder: (context) => new CaramelMacchiato(),
+                        builder: (context) => new EspressoConPanna(),
                       ),
                     );
                   },
