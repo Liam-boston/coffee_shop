@@ -251,7 +251,7 @@ class _CaramelMacchiatoState extends State<CaramelMacchiato> {
                     width: 250.0,
                     decoration: BoxDecoration(
                       image: DecorationImage(
-                        image: AssetImage("assets/red_mug.png"),
+                        image: AssetImage("assets/coffeeMug/red_mug.png"),
                         fit: BoxFit.cover,
                       ),
                     ),
