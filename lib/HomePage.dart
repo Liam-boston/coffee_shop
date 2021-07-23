@@ -86,12 +86,12 @@ class _HomePageState extends State<HomePage> {
                       "Freshly steamed milk marked with espresso and topped with a caramel drizzle\n",
                       "\$4.45",
                       false),
-                  // _coffeeListCard(
-                  //     "assets/coffeeListCard/coffee_beans.png",
-                  //     "Corsica",
-                  //     "It's a coffee you know and love, with deep, dark chocolate tones and a bold coffee flavor",
-                  //     "\$3.50",
-                  //     false),
+                  _coffeeListCard(
+                      "assets/coffeeListCard/coffee_beans.png",
+                      "Espresso Con Panna",
+                      "Espresso meets a dollop of whipped cream to enhance the caramelly flavors of a shot\n",
+                      "\$3.95",
+                      false),
                   // _coffeeListCard(
                   //     "assets/coffeeListCard/milk.png",
                   //     "Hair Bender",
