@@ -92,12 +92,12 @@ class _HomePageState extends State<HomePage> {
                       "Espresso meets a dollop of whipped cream to enhance the caramelly flavors of a shot\n",
                       "\$3.95",
                       false),
-                  // _coffeeListCard(
-                  //     "assets/coffeeListCard/milk.png",
-                  //     "Hair Bender",
-                  //     "Our most celebrated blend with a flavor profile that shines no matter how you brew it",
-                  //     "\$4.75",
-                  //     false),
+                  _coffeeListCard(
+                      "assets/coffeeListCard/milk.png",
+                      "Blonde Vanilla Latte",
+                      "Velvety steamed milk and vanilla combine to put a new twist on an espresso classic\n",
+                      "\$5.09",
+                      false),
                 ],
               ),
             ),
