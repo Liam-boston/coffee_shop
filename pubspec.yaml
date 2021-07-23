@@ -48,6 +48,7 @@ flutter:
   assets:
     - assets/profile.jpg
     - assets/coffeeListCard/caramel.png
+    - assets/coffeeListCard/coffee_beans.png
     - assets/coffee.jpg
     - assets/coffee2.jpg
     - assets/coffee3.jpg
