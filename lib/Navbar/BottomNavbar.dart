@@ -1,8 +1,9 @@
-import 'package:coffee_shop/Details/EspressoConPanna.dart';
 import 'package:flutter/material.dart';
 
 import 'package:coffee_shop/Home/HomePage.dart';
-import 'package:coffee_shop/Details/CaramelMacchiato.dart';
+// import 'package:coffee_shop/Details/CaramelMacchiato.dart';
+// import 'package:coffee_shop/Details/EspressoConPanna.dart';
+import 'package:coffee_shop/Details/BlondeVanillaLatte.dart';
 import 'package:coffee_shop/presentation/nav_icons.dart';
 
 class BottomNavbar extends StatelessWidget {
@@ -45,7 +46,7 @@ class BottomNavbar extends StatelessWidget {
                     Navigator.push(
                       context,
                       new MaterialPageRoute(
-                        builder: (context) => new EspressoConPanna(),
+                        builder: (context) => new BlondeVanillaLatte(),
                       ),
                     );
                   },
