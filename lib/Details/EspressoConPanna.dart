@@ -235,11 +235,11 @@ class _EspressoConPannaState extends State<EspressoConPanna> {
                   top: MediaQuery.of(context).size.height / 5,
                   left: 200.0,
                   child: Container(
-                    height: 250.0,
-                    width: 250.0,
+                    height: 225.0,
+                    width: 225.0,
                     decoration: BoxDecoration(
                       image: DecorationImage(
-                        image: AssetImage("assets/red_mug.png"),
+                        image: AssetImage("assets/coffeeMug/brown_mug.png"),
                         fit: BoxFit.cover,
                       ),
                     ),
