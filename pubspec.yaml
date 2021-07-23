@@ -51,6 +51,7 @@ flutter:
     - assets/coffeeListCard/coffee_beans.png
     - assets/coffeeListCard/milk.png
     - assets/coffeeMug/red_mug.png
+    - assets/coffeeMug/brown_mug.png
     - assets/coffee.jpg
     - assets/coffee2.jpg
     - assets/coffee3.jpg
