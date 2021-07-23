@@ -82,26 +82,23 @@ class _HomePageState extends State<HomePage> {
                 scrollDirection: Axis.horizontal,
                 children: [
                   _coffeeListCard(
-                      "assets/cafe_du_monde.png",
-                      "Cafe Au Lait",
-                      "Cafe Du Monde",
-                      "Our specialty, half coffee & half hot milk\n",
-                      "\$3.87",
+                      "assets/coffeeListCard/caramel.png",
+                      "Caramel Macchiato",
+                      "Freshly steamed milk with espresso and topped with caramel\n",
+                      "\$4.45",
                       false),
-                  _coffeeListCard(
-                      "assets/la_colombe_torrefaction.png",
-                      "Corsica",
-                      "La Colombe Torrefaction",
-                      "It's a coffee you know and love, with deep, dark chocolate tones and a bold coffee flavor",
-                      "\$3.50",
-                      false),
-                  _coffeeListCard(
-                      "assets/stumptown_roasters.png",
-                      "Hair Bender",
-                      "Stumptown Coffee Roasters",
-                      "Our most celebrated blend with a flavor profile that shines no matter how you brew it",
-                      "\$4.75",
-                      false),
+                  // _coffeeListCard(
+                  //     "assets/coffeeListCard/coffee_beans.png",
+                  //     "Corsica",
+                  //     "It's a coffee you know and love, with deep, dark chocolate tones and a bold coffee flavor",
+                  //     "\$3.50",
+                  //     false),
+                  // _coffeeListCard(
+                  //     "assets/coffeeListCard/milk.png",
+                  //     "Hair Bender",
+                  //     "Our most celebrated blend with a flavor profile that shines no matter how you brew it",
+                  //     "\$4.75",
+                  //     false),
                 ],
               ),
             ),
@@ -143,7 +140,7 @@ class _HomePageState extends State<HomePage> {
             ),
           ],
         ),
-      bottomNavigationBar: BottomNavbar(),
+        bottomNavigationBar: BottomNavbar(),
       ),
     );
   }
@@ -163,8 +160,8 @@ _buildImage(String imgPath) {
   );
 }
 
-_coffeeListCard(String imgPath, String coffeeName, String shopName,
-    String description, String price, bool isFavorite) {
+_coffeeListCard(String imgPath, String coffeeName, String description,
+    String price, bool isFavorite) {
   return Padding(
     padding: EdgeInsets.only(left: 15.0, right: 15.0),
     child: Container(
@@ -188,17 +185,8 @@ _coffeeListCard(String imgPath, String coffeeName, String shopName,
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       SizedBox(
-                        height: 60.0,
+                        height: 40.0,
                       ),
-                      Text(
-                        shopName + "\'s",
-                        style: TextStyle(
-                            fontFamily: "nunito",
-                            fontSize: 14.0,
-                            fontWeight: FontWeight.bold,
-                            color: Colors.white),
-                      ),
-                      SizedBox(height: 10.0),
                       Text(
                         coffeeName,
                         style: TextStyle(
