@@ -66,24 +66,13 @@ class _HomePageState extends State<HomePage> {
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
                 Text(
-                  "Taste of the week",
+                  "Coffee of the Week",
                   style: TextStyle(
                     fontFamily: "varela",
                     fontSize: 17.0,
                     color: Color(0xFF473D3A),
                   ),
                 ),
-                Padding(
-                  padding: const EdgeInsets.only(right: 15.0),
-                  child: Text(
-                    "See all",
-                    style: TextStyle(
-                      fontFamily: "varela",
-                      fontSize: 17.0,
-                      color: Color(0xFF473D3A),
-                    ),
-                  ),
-                )
               ],
             ),
             SizedBox(height: 15.0),
