@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'package:coffee_shop/Home/HomePage.dart';
-import 'package:coffee_shop/DetailsPage.dart';
+import 'package:coffee_shop/Details/DetailsPage.dart';
 
 void main() {
   runApp(CoffeeShop());
