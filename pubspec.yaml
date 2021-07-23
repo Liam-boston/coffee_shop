@@ -49,12 +49,11 @@ flutter:
     - assets/profile.jpg
     - assets/coffeeListCard/caramel.png
     - assets/coffeeListCard/coffee_beans.png
+    - assets/coffeeListCard/milk.png
     - assets/coffee.jpg
     - assets/coffee2.jpg
     - assets/coffee3.jpg
     - assets/red_mug.png
-    - assets/la_colombe_torrefaction.png
-    - assets/stumptown_roasters.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
