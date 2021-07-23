@@ -57,7 +57,7 @@ class _EspressoConPannaState extends State<EspressoConPanna> {
                         ),
                         SizedBox(height: 7.0),
                         Text(
-                          "5min",
+                          "3.5min",
                           style: TextStyle(
                             fontFamily: "nunito",
                             fontSize: 14.0,
@@ -90,31 +90,19 @@ class _EspressoConPannaState extends State<EspressoConPanna> {
                             scrollDirection: Axis.horizontal,
                             children: [
                               buildIngredientItem(
-                                "Water",
-                                Icon(IngredientIcons.water,
-                                    size: 25.0, color: Colors.white),
-                                Color(0xFF6FC5DA),
-                              ),
-                              buildIngredientItem(
-                                "Ice",
-                                Icon(IngredientIcons.ice_cube,
-                                    size: 25.0, color: Colors.white),
-                                Color(0xFFF8B870),
-                              ),
-                              buildIngredientItem(
                                 "Brewed Espresso",
                                 Icon(Icons.coffee_rounded,
                                     size: 25.0, color: Colors.white),
                                 Color(0xFF615955),
                               ),
                               buildIngredientItem(
-                                "Sugar",
+                                "Whipped Cream",
                                 Icon(IngredientIcons.sugar,
                                     size: 25.0, color: Colors.white),
                                 Color(0xFFF39595),
                               ),
                               buildIngredientItem(
-                                "Hazelnut Syrup",
+                                "Vanilla Syrup",
                                 Icon(IngredientIcons.hazelnut,
                                     size: 25.0, color: Colors.white),
                                 Color(0xFF8FC28A),
@@ -152,7 +140,7 @@ class _EspressoConPannaState extends State<EspressoConPanna> {
                             ),
                             SizedBox(width: 15.0),
                             Text(
-                              "250",
+                              "35",
                               style: TextStyle(
                                 fontFamily: "nunito",
                                 fontSize: 12.0,
@@ -175,7 +163,7 @@ class _EspressoConPannaState extends State<EspressoConPanna> {
                             ),
                             SizedBox(width: 15.0),
                             Text(
-                              "10g",
+                              "1g",
                               style: TextStyle(
                                 fontFamily: "nunito",
                                 fontSize: 12.0,
@@ -272,7 +260,7 @@ class _EspressoConPannaState extends State<EspressoConPanna> {
                             Container(
                               width: 150.0,
                               child: Text(
-                                "Caramel Macchiato",
+                                "Espresso Con Panna",
                                 style: TextStyle(
                                     fontFamily: "varela",
                                     fontSize: 30.0,
@@ -297,7 +285,7 @@ class _EspressoConPannaState extends State<EspressoConPanna> {
                         Container(
                           width: 170.0,
                           child: Text(
-                            "Freshly steamed milk with vanilla-flavored syrup is marked with espresso and topped with caramel drizzle for an oh-so-sweet finish.",
+                            "Espresso meets a dollop of whipped cream to enhance the caramelly flavors of a shot.",
                             style: TextStyle(
                               fontFamily: "nunito",
                               fontSize: 13.0,
@@ -320,7 +308,7 @@ class _EspressoConPannaState extends State<EspressoConPanna> {
                                   mainAxisAlignment: MainAxisAlignment.center,
                                   children: [
                                     Text(
-                                      "4.2",
+                                      "3.8",
                                       style: TextStyle(
                                         fontFamily: "nunito",
                                         fontSize: 13.0,
@@ -407,7 +395,7 @@ class _EspressoConPannaState extends State<EspressoConPanna> {
                                 ),
                                 SizedBox(height: 3.0),
                                 Text(
-                                  "+27 more",
+                                  "+19 more",
                                   style: TextStyle(
                                     fontFamily: "nunito",
                                     fontSize: 12.0,
