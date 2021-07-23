@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'package:coffee_shop/Home/HomePage.dart';
-import 'package:coffee_shop/Details/DetailsPage.dart';
+import 'package:coffee_shop/Details/CaramelMacchiato.dart';
 import 'package:coffee_shop/presentation/nav_icons.dart';
 
 class BottomNavbar extends StatelessWidget {
@@ -44,7 +44,7 @@ class BottomNavbar extends StatelessWidget {
                     Navigator.pushReplacement(
                       context,
                       new MaterialPageRoute(
-                        builder: (context) => new DetailsPage(),
+                        builder: (context) => new CaramelMacchiato(),
                       ),
                     );
                   },

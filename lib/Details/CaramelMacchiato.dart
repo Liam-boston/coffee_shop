@@ -2,14 +2,14 @@ import 'package:flutter/material.dart';
 
 import 'package:coffee_shop/presentation/ingredient_icons.dart';
 
-class DetailsPage extends StatefulWidget {
+class CaramelMacchiato extends StatefulWidget {
   @override
   State<StatefulWidget> createState() {
-    return _DetailsPageState();
+    return _CaramelMacchiatoState();
   }
 }
 
-class _DetailsPageState extends State<DetailsPage> {
+class _CaramelMacchiatoState extends State<CaramelMacchiato> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(

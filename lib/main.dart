@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'package:coffee_shop/Home/HomePage.dart';
-import 'package:coffee_shop/Details/DetailsPage.dart';
+import 'package:coffee_shop/Details/CaramelMacchiato.dart';
 
 void main() {
   runApp(CoffeeShop());
@@ -15,7 +15,7 @@ class CoffeeShop extends StatelessWidget {
       initialRoute: "/",
       routes: {
         "/": (context) => HomePage(),
-        "/details": (context) => DetailsPage(),
+        "/caramel_macchiato": (context) => CaramelMacchiato(),
       },
     );
   }
