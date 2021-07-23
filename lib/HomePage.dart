@@ -75,7 +75,6 @@ class _HomePageState extends State<HomePage> {
                 ),
               ],
             ),
-            SizedBox(height: 15.0),
             Container(
               height: 410.0,
               child: ListView(
@@ -84,7 +83,7 @@ class _HomePageState extends State<HomePage> {
                   _coffeeListCard(
                       "assets/coffeeListCard/caramel.png",
                       "Caramel Macchiato",
-                      "Freshly steamed milk with espresso and topped with caramel\n",
+                      "Freshly steamed milk marked with espresso and topped with a caramel drizzle\n",
                       "\$4.45",
                       false),
                   // _coffeeListCard(
@@ -102,7 +101,7 @@ class _HomePageState extends State<HomePage> {
                 ],
               ),
             ),
-            SizedBox(height: 15.0),
+            SizedBox(height: 25.0),
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
