@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'package:coffee_shop/HomePage.dart';
+import 'package:coffee_shop/Home/HomePage.dart';
 import 'package:coffee_shop/DetailsPage.dart';
 
 void main() {
