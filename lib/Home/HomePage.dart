@@ -1,7 +1,7 @@
 import "package:flutter/material.dart";
 import "package:flutter/rendering.dart";
 
-import 'package:coffee_shop/BottomNavbar.dart';
+import 'package:coffee_shop/Navbar/BottomNavbar.dart';
 
 class HomePage extends StatefulWidget {
   @override
