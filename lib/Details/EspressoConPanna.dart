@@ -285,7 +285,7 @@ class _EspressoConPannaState extends State<EspressoConPanna> {
                         Container(
                           width: 170.0,
                           child: Text(
-                            "Espresso meets a dollop of whipped cream to enhance the caramelly flavors of a shot.",
+                            "Espresso meets a dollop of whipped cream to enhance the caramelly flavors of a shot",
                             style: TextStyle(
                               fontFamily: "nunito",
                               fontSize: 13.0,
@@ -348,7 +348,7 @@ class _EspressoConPannaState extends State<EspressoConPanna> {
                                               width: 1.0),
                                           image: DecorationImage(
                                               image: AssetImage(
-                                                  "assets/profile.jpg"),
+                                                  "assets/profilePic/profile2.jpg"),
                                               fit: BoxFit.cover),
                                         ),
                                       ),
@@ -367,7 +367,7 @@ class _EspressoConPannaState extends State<EspressoConPanna> {
                                               width: 1.0),
                                           image: DecorationImage(
                                               image: AssetImage(
-                                                  "assets/profile.jpg"),
+                                                  "assets/profilePic/profile3.jpg"),
                                               fit: BoxFit.cover),
                                         ),
                                       ),
@@ -386,7 +386,7 @@ class _EspressoConPannaState extends State<EspressoConPanna> {
                                               width: 1.0),
                                           image: DecorationImage(
                                               image: AssetImage(
-                                                  "assets/profile.jpg"),
+                                                  "assets/profilePic/profile4.jpg"),
                                               fit: BoxFit.cover),
                                         ),
                                       ),
