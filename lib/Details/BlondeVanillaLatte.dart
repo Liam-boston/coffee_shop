@@ -348,7 +348,7 @@ class _BlondeVanillaLatteState extends State<BlondeVanillaLatte> {
                                               width: 1.0),
                                           image: DecorationImage(
                                               image: AssetImage(
-                                                  "assets/profile.jpg"),
+                                                  "assets/profilePic/profile3.jpg"),
                                               fit: BoxFit.cover),
                                         ),
                                       ),
@@ -367,7 +367,7 @@ class _BlondeVanillaLatteState extends State<BlondeVanillaLatte> {
                                               width: 1.0),
                                           image: DecorationImage(
                                               image: AssetImage(
-                                                  "assets/profile.jpg"),
+                                                  "assets/profilePic/profile.jpg"),
                                               fit: BoxFit.cover),
                                         ),
                                       ),
@@ -386,7 +386,7 @@ class _BlondeVanillaLatteState extends State<BlondeVanillaLatte> {
                                               width: 1.0),
                                           image: DecorationImage(
                                               image: AssetImage(
-                                                  "assets/profile.jpg"),
+                                                  "assets/profilePic/profile5.jpg"),
                                               fit: BoxFit.cover),
                                         ),
                                       ),
