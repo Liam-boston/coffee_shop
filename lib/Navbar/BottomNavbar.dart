@@ -42,18 +42,22 @@ class BottomNavbar extends StatelessWidget {
             Column(
               children: [
                 IconButton(
-                  onPressed: () {
-                    Navigator.push(
-                      context,
-                      new MaterialPageRoute(
-                        builder: (context) => new BlondeVanillaLatte(),
-                      ),
-                    );
-                  },
-                  icon: Icon(NavIcons.order, size: 30.0),
+                  onPressed: () {},
+                  icon: Icon(NavIcons.cart, size: 30.0),
                 ),
                 Center(
-                  child: Text("Order"),
+                  child: Text("Cart"),
+                ),
+              ],
+            ),
+             Column(
+              children: [
+                IconButton(
+                  onPressed: () {},
+                  icon: Icon(NavIcons.profile, size: 30.0),
+                ),
+                Center(
+                  child: Text("Profile"),
                 ),
               ],
             )
