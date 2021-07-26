@@ -91,20 +91,20 @@ class _EspressoConPannaState extends State<EspressoConPanna> {
                             children: [
                               buildIngredientItem(
                                 "Brewed Espresso",
-                                Icon(Icons.coffee_rounded,
+                                Icon(Icons.coffee_outlined,
                                     size: 25.0, color: Colors.white),
-                                Color(0xFF615955),
+                                Color(0xFFB37A4C),
                               ),
                               buildIngredientItem(
                                 "Whipped Cream",
-                                Icon(IngredientIcons.sugar,
+                                Icon(IngredientIcons.whipped_cream,
                                     size: 25.0, color: Colors.white),
                                 Color(0xFFF39595),
                               ),
                               buildIngredientItem(
-                                "Vanilla Syrup",
-                                Icon(IngredientIcons.hazelnut,
-                                    size: 25.0, color: Colors.white),
+                                "Vanilla",
+                                Icon(IngredientIcons.vanilla,
+                                    size: 35.0, color: Colors.white),
                                 Color(0xFF8FC28A),
                               ),
                             ],
