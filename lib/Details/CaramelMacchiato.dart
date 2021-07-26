@@ -297,7 +297,7 @@ class _CaramelMacchiatoState extends State<CaramelMacchiato> {
                         Container(
                           width: 170.0,
                           child: Text(
-                            "Freshly steamed milk with vanilla-flavored syrup is marked with espresso and topped with caramel drizzle for an oh-so-sweet finish.",
+                            "Freshly steamed milk with vanilla-flavored syrup is marked with espresso and topped with caramel drizzle for an oh-so-sweet finish",
                             style: TextStyle(
                               fontFamily: "nunito",
                               fontSize: 13.0,
@@ -360,7 +360,7 @@ class _CaramelMacchiatoState extends State<CaramelMacchiato> {
                                               width: 1.0),
                                           image: DecorationImage(
                                               image: AssetImage(
-                                                  "assets/profile.jpg"),
+                                                  "assets/profilePic/profile.jpg"),
                                               fit: BoxFit.cover),
                                         ),
                                       ),
@@ -379,7 +379,7 @@ class _CaramelMacchiatoState extends State<CaramelMacchiato> {
                                               width: 1.0),
                                           image: DecorationImage(
                                               image: AssetImage(
-                                                  "assets/profile.jpg"),
+                                                  "assets/profilePic/profile2.jpg"),
                                               fit: BoxFit.cover),
                                         ),
                                       ),
@@ -398,7 +398,7 @@ class _CaramelMacchiatoState extends State<CaramelMacchiato> {
                                               width: 1.0),
                                           image: DecorationImage(
                                               image: AssetImage(
-                                                  "assets/profile.jpg"),
+                                                  "assets/profilePic/profile3.jpg"),
                                               fit: BoxFit.cover),
                                         ),
                                       ),
