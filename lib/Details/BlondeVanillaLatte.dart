@@ -90,21 +90,21 @@ class _BlondeVanillaLatteState extends State<BlondeVanillaLatte> {
                             scrollDirection: Axis.horizontal,
                             children: [
                               buildIngredientItem(
+                                "Milk",
+                                Icon(IngredientIcons.milk,
+                                    size: 25.0, color: Colors.white),
+                                Color(0xFF8CD3FF),
+                              ),
+                              buildIngredientItem(
                                 "Brewed Espresso",
-                                Icon(Icons.coffee_rounded,
+                                Icon(Icons.coffee_outlined,
                                     size: 25.0, color: Colors.white),
-                                Color(0xFF615955),
+                                Color(0xFFB37A4C),
                               ),
                               buildIngredientItem(
-                                "Whipped Cream",
-                                Icon(IngredientIcons.sugar,
-                                    size: 25.0, color: Colors.white),
-                                Color(0xFFF39595),
-                              ),
-                              buildIngredientItem(
-                                "Vanilla Syrup",
-                                Icon(IngredientIcons.hazelnut,
-                                    size: 25.0, color: Colors.white),
+                                "Vanilla",
+                                Icon(IngredientIcons.vanilla,
+                                    size: 35.0, color: Colors.white),
                                 Color(0xFF8FC28A),
                               ),
                             ],
@@ -260,7 +260,7 @@ class _BlondeVanillaLatteState extends State<BlondeVanillaLatte> {
                             Container(
                               width: 150.0,
                               child: Text(
-                                "Espresso Con Panna",
+                                "Blonde Vanilla Latte",
                                 style: TextStyle(
                                     fontFamily: "varela",
                                     fontSize: 30.0,
