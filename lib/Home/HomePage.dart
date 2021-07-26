@@ -1,3 +1,4 @@
+import 'package:coffee_shop/Details/CaramelMacchiato.dart';
 import "package:flutter/material.dart";
 import "package:flutter/rendering.dart";
 
@@ -85,19 +86,22 @@ class _HomePageState extends State<HomePage> {
                       "Caramel Macchiato",
                       "Freshly steamed milk marked with espresso and topped with a caramel drizzle\n",
                       "\$4.45",
-                      false),
+                      false,
+                      context),
                   _coffeeListCard(
                       "assets/coffeeListCard/coffee_beans.png",
                       "Espresso Con Panna",
                       "Espresso meets a dollop of whipped cream to enhance the caramelly flavors of a shot\n",
                       "\$3.95",
-                      false),
+                      false,
+                      context),
                   _coffeeListCard(
                       "assets/coffeeListCard/milk.png",
                       "Blonde Vanilla Latte",
                       "Velvety steamed milk and vanilla combine to put a new twist on an espresso classic\n",
                       "\$5.09",
-                      false),
+                      false,
+                      context),
                 ],
               ),
             ),
@@ -160,7 +164,7 @@ _buildImage(String imgPath) {
 }
 
 _coffeeListCard(String imgPath, String coffeeName, String description,
-    String price, bool isFavorite) {
+    String price, bool isFavorite, BuildContext context) {
   return Padding(
     padding: EdgeInsets.only(left: 15.0, right: 15.0),
     child: Container(
@@ -248,7 +252,15 @@ _coffeeListCard(String imgPath, String coffeeName, String description,
           ),
           SizedBox(height: 20.0),
           InkWell(
-            onTap: () {},
+            onTap: () {
+              if (coffeeName == "Caramel Macchiato") {
+                Navigator.pushNamed(context, "/caramel_macchiato");
+              } else if (coffeeName == "Espresso Con Panna") {
+                Navigator.pushNamed(context, "/espresso_con_panna");
+              } else if (coffeeName == "Blonde Vanilla Latte") {
+                Navigator.pushNamed(context, "/blonde_vanilla_latte");
+              }
+            },
             child: Container(
               height: 50.0,
               width: 225.0,
