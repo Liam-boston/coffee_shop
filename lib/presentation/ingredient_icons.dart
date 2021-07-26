@@ -16,14 +16,6 @@
 ///         Author:    Daniel Bruce
 ///         License:   SIL (http://scripts.sil.org/OFL)
 ///         Homepage:  http://www.entypo.com
-/// * RPG Awesome, Copyright (c) 2014, Daniela Howe
-///         Author:    Daniela Howe & Ivan Montiel
-///         License:   SIL (http://scripts.sil.org/OFL)
-///         Homepage:  http://nagoshiashumari.github.io/Rpg-Awesome/
-/// * Font Awesome 5, Copyright (C) 2016 by Dave Gandy
-///         Author:    Dave Gandy
-///         License:   SIL (https://github.com/FortAwesome/Font-Awesome/blob/master/LICENSE.txt)
-///         Homepage:  http://fortawesome.github.com/Font-Awesome/
 ///
 import 'package:flutter/widgets.dart';
 
@@ -33,9 +25,11 @@ class IngredientIcons {
   static const _kFontFam = 'IngredientIcons';
   static const String? _kFontPkg = null;
 
-  static const IconData water = IconData(0xe800, fontFamily: _kFontFam, fontPackage: _kFontPkg);
-  static const IconData sugar = IconData(0xe986, fontFamily: _kFontFam, fontPackage: _kFontPkg);
-  static const IconData ice_cube = IconData(0xea0c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
-  static const IconData espresso = IconData(0xf0f4, fontFamily: _kFontFam, fontPackage: _kFontPkg);
-  static const IconData hazelnut = IconData(0xf4d8, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData milk = IconData(0xe800, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData water = IconData(0xe801, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData caramel = IconData(0xe802, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData vanilla = IconData(0xe803, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData whipped_cream = IconData(0xe804, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData ice_cube = IconData(0xe806, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData sugar = IconData(0xe808, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 }
