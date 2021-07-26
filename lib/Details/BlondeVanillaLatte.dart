@@ -57,7 +57,7 @@ class _BlondeVanillaLatteState extends State<BlondeVanillaLatte> {
                         ),
                         SizedBox(height: 7.0),
                         Text(
-                          "3.5min",
+                          "4.0min",
                           style: TextStyle(
                             fontFamily: "nunito",
                             fontSize: 14.0,
@@ -140,7 +140,7 @@ class _BlondeVanillaLatteState extends State<BlondeVanillaLatte> {
                             ),
                             SizedBox(width: 15.0),
                             Text(
-                              "35",
+                              "250",
                               style: TextStyle(
                                 fontFamily: "nunito",
                                 fontSize: 12.0,
@@ -163,7 +163,7 @@ class _BlondeVanillaLatteState extends State<BlondeVanillaLatte> {
                             ),
                             SizedBox(width: 15.0),
                             Text(
-                              "1g",
+                              "12g",
                               style: TextStyle(
                                 fontFamily: "nunito",
                                 fontSize: 12.0,
@@ -186,7 +186,7 @@ class _BlondeVanillaLatteState extends State<BlondeVanillaLatte> {
                             ),
                             SizedBox(width: 15.0),
                             Text(
-                              "150mg",
+                              "170mg",
                               style: TextStyle(
                                 fontFamily: "nunito",
                                 fontSize: 12.0,
@@ -239,7 +239,7 @@ class _BlondeVanillaLatteState extends State<BlondeVanillaLatte> {
                     width: 225.0,
                     decoration: BoxDecoration(
                       image: DecorationImage(
-                        image: AssetImage("assets/coffeeMug/brown_mug.png"),
+                        image: AssetImage("assets/coffeeMug/blue_mug.png"),
                         fit: BoxFit.cover,
                       ),
                     ),
