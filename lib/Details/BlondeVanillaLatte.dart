@@ -57,7 +57,7 @@ class _BlondeVanillaLatteState extends State<BlondeVanillaLatte> {
                         ),
                         SizedBox(height: 7.0),
                         Text(
-                          "4.0min",
+                          "4min",
                           style: TextStyle(
                             fontFamily: "nunito",
                             fontSize: 14.0,
@@ -285,7 +285,7 @@ class _BlondeVanillaLatteState extends State<BlondeVanillaLatte> {
                         Container(
                           width: 170.0,
                           child: Text(
-                            "Espresso meets a dollop of whipped cream to enhance the caramelly flavors of a shot.",
+                            "Velvety steamed milk and vanilla syrup come together to create a delightful twist on an espresso classic",
                             style: TextStyle(
                               fontFamily: "nunito",
                               fontSize: 13.0,
@@ -308,7 +308,7 @@ class _BlondeVanillaLatteState extends State<BlondeVanillaLatte> {
                                   mainAxisAlignment: MainAxisAlignment.center,
                                   children: [
                                     Text(
-                                      "3.8",
+                                      "4.4",
                                       style: TextStyle(
                                         fontFamily: "nunito",
                                         fontSize: 13.0,
@@ -395,7 +395,7 @@ class _BlondeVanillaLatteState extends State<BlondeVanillaLatte> {
                                 ),
                                 SizedBox(height: 3.0),
                                 Text(
-                                  "+19 more",
+                                  "+23 more",
                                   style: TextStyle(
                                     fontFamily: "nunito",
                                     fontSize: 12.0,
